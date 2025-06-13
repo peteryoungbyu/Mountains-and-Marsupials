@@ -1,0 +1,105 @@
+html {
+    scroll-padding-top: 90px;
+}
+
+body {
+    background-color: #A1CDF1;
+}
+
+.topbar {
+    text-align: center;
+    border: 2px solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    background-color: #D5EEE3;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    height: 80px;
+    /* set consistent height */
+    line-height: 80px;
+}
+
+.mountainbox {
+    padding: 30px;
+    background-color: lightgreen;
+    width: 1150px;
+    margin: auto;
+    border-radius: 20px;
+    border: 4px solid #466060;
+    margin-top: 90px;
+    position: relative;
+    z-index: 0;
+}
+
+.animalsbox {
+    padding: 30px;
+    background-color: #083D77;
+    width: 1150px;
+    margin: auto;
+    border-radius: 20px;
+    border: 4px solid #466060;
+    margin-top: 20px;
+    position: relative;
+    z-index: 0;
+    padding-top: 25px;
+}
+
+.animalsbox h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+.animalsdiv {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* halfway between left edge and h1 (center) */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.topbar a {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.topbar h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    line-height: normal;
+}
+
+.marsupialsdiv {
+    position: absolute;
+    top: 50%;
+    right: 12%;
+    transform: translateX(50%) translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
